@@ -10,6 +10,7 @@ pub use indexes::IndexStore;
 pub mod event_store;
 pub mod follower_store;
 pub mod mutex_table;
+pub mod pending_store;
 pub mod write_ahead_log;
 
 use rocksdb::Options;
